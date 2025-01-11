@@ -1,0 +1,53 @@
+.navbar {
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    background-color: #16423C; /* Dark green background */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjusted padding */
+    margin-top: 0;
+    height: 80px;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar-heading h1 {
+    color: white;
+    font-size: 1.6em; /* Adjusted to a larger size for better visibility */
+    padding-left: 20px; /* Adjusted padding for better alignment */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    padding: 12px;
+    font-size: 20px;
+    margin: 0px 60px 0px 0px;
+    
+  }
+  
+  .nav-links li {
+    margin-left: 1.5rem; /* Adjusted spacing between links */
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+   
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em; /* Ensure font size matches other elements */
+    display: inline-block;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    cursor:pointer;
+  }
+  
+  .nav-links a:hover {
+    color: #C4DAD2; /* Light color for hover effect */
+  }
+  
+  .nav-links li:hover {
+    transform: scale(1.1); /* Slightly enlarges the list item on hover */
+  }
+  
